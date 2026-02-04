@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit</title>
+</head>
+<style>
+  /* NAVIGATION BAR */
+        nav {
+            background-color: #5a3e2b;
+            padding: 15px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+            gap: 40px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+   header{
+      color: rgb(158, 139, 71);
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+    }
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.gallery img {
+  width: 100%;
+  aspect-ratio: 4 / 3; /* bisa 1/1 kalau mau kotak */
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    }
+</style>
+
+ <header>
+    <h1>Tentang kita</h1>
+  </header>
+
+  <body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="credits.html">Pembuat</a></li>
+            <li><a href="toraja.html">Toraja</a></li>
+            <li><a href="minahasa.html">Minahasa</a></li>
+        </ul>
+    </nav>
+
+    <section class="gallery">
+    <img src="image (59).png">
+    <img src="osis.jpeg">
+    <img src="kur.jpeg">
+    <img src="photo.jpg">
+    <img src="image (60).png">
+
+</body>
+</html>
